@@ -1,0 +1,41 @@
+<style>
+    .myGrid{
+        display: grid;
+        /* fraction의 약자로 부분,일부를 의미
+        n:n 비율로 공간을 차지하겠다. */
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    #first{
+        margin: 1px;
+        color: black;
+        background-color: yellow;
+        text-align: center;
+
+    }
+    #second{
+        margin: 1px;
+        color: black;
+        background-color: limegreen;
+        text-align: center;
+    }
+    #third{
+        margin: 1px;
+        color: black;
+        background-color: rosybrown;
+        text-align: center;
+    }
+    #fourth{
+        margin: 1px;
+        color: black;
+        background-color: aqua;
+        text-align: center;
+    }
+</style>
+
+<div class="myGrid">
+    <div id="first">1번 영역</div>
+    <div id="second">2번 영역</div>
+    <div id="third">3번 영역</div>
+    <div id="fourth">4번 영역</div>
+</div>
