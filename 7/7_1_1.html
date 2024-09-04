@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* p 태그를 먼저 탐색하고 그 하위에 있는 img태그를 탐색하여 스타일을 적용 */
+       p img{
+            border: 5px solid red;
+        }
+
+        #header >h1{color: red;}
+        #contents h1{color:blue;}
+        
+    </style>
+    <div id = "header">
+        <h1>나는 header의 자식</h1>
+        <div id = "nav">
+            <h1>navigation</h1>
+        </div>
+
+        <div id="nav2">
+            <h1>navigation</h1>
+        </div>
+
+        <div id="contents">
+            <h1>contents의 자식</h1>
+        </div>
+    </div>
+
+
+    <p>
+        <img src="image/cat1.jpg" width="300px">
+        <div>
+            <img src="image/profile.jpg" width="300px">
+        </div>
+    </p>
+    <img src="image/cat2.jpg" width="300px">
+</body>
+</html>
