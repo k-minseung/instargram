@@ -6,6 +6,7 @@
     <title>instargram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="script.js"></script>
 </head>
 <body>
 <!-- Logo -->
@@ -26,12 +27,12 @@
 <!-- -------------------------------------------------------------------->
 <!-- 프로필 -->
     <div id="profile">
-        <div class="profile_pic">
+        <div id="profile_pic">
             <img src = "image/profile.jpg" class="circle_pic">
         </div>
         <div id="profile_info">
             <div id="id">
-                half_bottle <i class="fas fa-cog"></i>
+                <span>half_bottle</span> <i class="fas fa-cog"></i>
             </div>
             <button>프로필 편집</button>
         </div>
@@ -40,13 +41,13 @@
      <div>
         <p>
             <!-- <strong></strong> 볼드체 표현  -->
-            <strong>
+            <strong id="userInfo">
                 반병현(ByngHyun Ban)<br/>
             </strong>
-            작가    
+            <span id="summary">작가</span>  
         </p>
-        <p>
-            <a href= "https://needleworm.github.io" target="_blank">needleworm</a>
+        <p id ="profileDetail">
+            <a href= "https://needleworm.github.io" target="_blank">needleworm.github.io</a>
         </p> 
     </div>
 <!-- 하이라이트 -->

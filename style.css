@@ -74,7 +74,7 @@
       display: grid;
       grid-template-columns: 1fr 3.5fr;
    }
-   .profile_pic{
+   #profile_pic{
       width: 15vw;
       height: 15vw;
    }
